@@ -4,7 +4,7 @@ for i in range(2, n):
     a.append((a[i - 1] + a[i - 2]))
 l = 0
 c = 0
- for i in range(0, n):
+for i in range(0, n):
     c = c + 1
     if (c > l):
         l = l + 1
